@@ -58,9 +58,28 @@ Brunch 수필
 
 ## 04. 데이터 선정
 
-
 ## 05. 모델 학습
+### 사용 모델 : SKT/kogpt2-base-v2
+📌 모델 선택 기준
+* **수식어구**가 자연스러운가?
+* 앞 뒤 **문맥**과 문장의 **흐름**이 자연스러운가?
+* **반복**되는 문장은 없는가?  
 
+✔ **Fine-tuning**   
+```
+사전에 수집한 데이터들로 1차적으로 학습된 모델을 브런치 사이트에서   
+주제와 관련된 공통 키워드로 뽑아낸 데이터들로 2차 fine-tuning을 진행했습니다.  
+```
+![fine](https://user-images.githubusercontent.com/80453200/213722200-b9acf3c1-15b7-4291-9358-83425b45ad21.PNG) 
+
+
+✔ **Transfer Learning**      
+```
+각 소주제 별로 키워드를 뽑아 Filtered Dataset 4개를 만들었습니다.  
+그 후 Common Keyword로 학습된 모델을 각각의 주제 별로 transfer learning을 진행했습니다.   
+결과적으로 4개의 소주제 모델을 형성했습니다.
+```
+![transfer](https://user-images.githubusercontent.com/80453200/213724930-3da456ef-799c-467c-9be7-2036ec9ede58.PNG)  
 ## 06. 수필 생성
 
 ## 07. 팀원 소개
