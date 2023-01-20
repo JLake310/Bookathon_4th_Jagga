@@ -21,4 +21,14 @@
 
 ## 05. 수필 생성
 
+## 06. 팀원 소개
+
+### 2023 SKKU AI x Bookathon 4th, 작가님마감언제돼요
+
+|                      김재연                       |                엄계현                |                이예진               |
+| :---------------------------------------------: | :----------------------------------: | :------------------------------: |
+|<img src="https://avatars.githubusercontent.com/u/86578246?v=4" alt="JLake310" width="100" height="100">|<img src="https://avatars.githubusercontent.com/u/80453200?v=4" alt="KaeHyun" width="100" height="100">|<img src="https://avatars.githubusercontent.com/u/82494506?v=4" alt="leeyejin1231" width="100" height="100">| [JLake310](https://github.com/JLake310) | [KaeHyun](http://github.com/KaeHyun) | [leeyejin1231](http://github.com/leeyejin1231) |
+
+
 ## _작성중 !!!_
+
