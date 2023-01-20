@@ -43,7 +43,8 @@ Brunch 수필
 4. 구어체 제거 및 종결어미 통일
 5. 혐오, 차별, 정치 등 관련 데이터 제거
 
-```KLUE : Korean Language Understanding Evaluation``` 에서 사용한 전처리 기법 사용
+* ```KLUE : Korean Language Understanding Evaluation``` 에서 사용한 전처리 기법 사용  
+* 인간 전처리기(?) 사용
 
 
 ## 03. 주제 선정
@@ -56,6 +57,7 @@ Brunch 수필
 <img width="727" alt="image" src="https://user-images.githubusercontent.com/82494506/213694113-0995731a-814f-47a9-8166-cd499ce0d1bf.png">
 
 ## 04. 데이터 선정
+
 
 ## 05. 모델 학습
 
