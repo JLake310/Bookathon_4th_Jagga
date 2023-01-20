@@ -2,7 +2,7 @@
 
 ## 00. Introduction
 <img width="917" alt="image" src="https://user-images.githubusercontent.com/82494506/213676966-0f24a37e-dae6-443e-8209-d5cb9adb38c9.png">
-📌 성균관대학교에서 주최한 본 대회는 인공지능 모델을 활용하여, 주어진 키워드를 주제로 수필을 작성하는 것을 목적으로 하였습니다.
+성균관대학교에서 주최한 본 대회는 인공지능 모델을 활용하여, 주어진 키워드를 주제로 수필을 작성하는 것을 목적으로 하였습니다.
 </br>
 </br>
 
@@ -13,11 +13,38 @@
 
 그 결과, 장려상이라는 좋은 결과를 낼 수 있었습니다.
 
-* 결과물 [소신(小身)의 소신(所信)](https://github.com/JLake310/Bookathon_4th_Jagga/blob/main/result_essay/%EC%86%8C%EC%8B%A0(%E5%B0%8F%E8%BA%AB)%EC%9D%98%20%EC%86%8C%EC%8B%A0(%E6%89%80%E4%BF%A1).md) 보러가기
+* [소신(小身)의 소신(所信)](https://github.com/JLake310/Bookathon_4th_Jagga/blob/main/result_essay/%EC%86%8C%EC%8B%A0(%E5%B0%8F%E8%BA%AB)%EC%9D%98%20%EC%86%8C%EC%8B%A0(%E6%89%80%E4%BF%A1).md) 보러가기
+* [발표자료](https://github.com/JLake310/Bookathon_4th_Jagga/blob/main/presentation/%EC%9E%91%EA%B0%80%EB%8B%98%EB%A7%88%EA%B0%90%EC%96%B8%EC%A0%9C%EB%8F%BC%EC%9A%94_%EB%B0%9C%ED%91%9C.pdf) 보러가기
 
 ## 01. 데이터 수집
+> 독후감 데이터(기본 제공)
+2000-2022 신춘문예 수상작  
+남산백일장 수상작  
+글틴 수필  
+Brunch 수필  
+책사랑 주부수필 수상작  
+한국산문 작가협회 수필 공모전  
+보령_의사수필 수상작  
+동서식품 수필 수상작  
+수필.net  
+추천수필  
+신현식의 수필세상  
+문학광장  
+다르마칼리지  
+성균색
+
+총 15 종류, **13,829**개의 데이터를 수집하였습니다.
+(사용 데이터는 저작권 관련 문제로 깃허브에 공개하지 않겠습니다.)
 
 ## 02. 데이터 전처리
+1. 중복, 결측 데이터 제거
+2. 데이터 정규화 
+3. 맞춤법 검사
+4. 구어체 제거 및 종결어미 통일
+5. 혐오, 차별, 정치 등 관련 데이터 제거
+
+```KLUE : Korean Language Understanding Evaluation``` 에서 사용한 전처리 기법 사용
+
 
 ## 03. 데이터 선정
 
