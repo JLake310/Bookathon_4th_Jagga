@@ -57,13 +57,27 @@ Brunch 수필
 <img width="727" alt="image" src="https://user-images.githubusercontent.com/82494506/213694113-0995731a-814f-47a9-8166-cd499ce0d1bf.png">
 
 ## 04. 데이터 선정
+### JSearch : 문장 색인과 토큰 역색인을 활용한 자체 제작 데이터셋 구성 툴 
+```
+자체 제작 툴인 JSearch를 활용해 각 소주제 별 선정한 Query를 논리 연산자를 활용하여  
+Filtered data를 구성했습니다.
+```
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/80453200/215392872-f2ea9642-c5fd-4d5b-9550-184d1a6919ee.png">
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/80453200/215394162-8b74e7af-ddb5-4e0d-a409-2b933cef556d.png">
+
 
 ## 05. 모델 학습
 ### 사용 모델 : SKT/kogpt2-base-v2
-📌 모델 선택 기준
+📌 모델 선정 기준
 * **수식어구**가 자연스러운가?
 * 앞 뒤 **문맥**과 문장의 **흐름**이 자연스러운가?
 * **반복**되는 문장은 없는가?  
+   
+   
+대회에서 제공해준 GPT2와 SKT-KoGPT2를 같은 환경에서 1 epoch을 학습시켜보았을 때,  
+GPT2보다 **SKT-KoGPT2**가 저희가 선정한 모델 선정 기준에 부합했습니다.
 
 ✔ **Fine-tuning**   
 ```
@@ -81,6 +95,36 @@ Brunch 수필
 ```
 ![transfer](https://user-images.githubusercontent.com/80453200/213724930-3da456ef-799c-467c-9be7-2036ec9ede58.PNG)  
 ## 06. 수필 생성
+
+### 샘플링 방식
+✔ **Top-p 샘플링 사용**   
+```
+Top-p 와 Top-k 샘플링 방식을 비교했을 때, Top-p의 샘플링 방식의 성능이 더 좋았습니다.
+따라서, Top-p 샘플링 방식을 사용했습니다.
+```
+  
+✔ **jiN-best 샘플링 사용**    
+```
+TF-IDF와 Pororo Similarity를 활용한 자체 제작 샘플링 툴입니다.
+```
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/80453200/215406197-a5d63c44-f336-45bd-be06-1ef221c00a3e.png">
+
+✔ **인간 샘플링 사용**    
+```
+마지막은 저희 팀원들이 직접 읽어보며 샘플링을 진행했습니다. 인간의 개입을 최소화하기 위해 가장 마지막에 검토 느낌으로 활용했습니다.  
+문장의 내용을 일절 수정하지 않았으며 필요없는 문장과 문맥을 잃어버리는 경우에만 문장을 삭제했습니다.
+```
+
+#### 📌 샘플링 전체 구조
+<img width="800" align="center" alt="image" src="https://user-images.githubusercontent.com/80453200/215407301-98b9f8ae-d2e7-4113-aa70-c11bb263f9d6.png">
+
+다음은 저희 모델이 생성한 가장 ```담대한``` 문장입니다.
+
+<div align="center">
+  <b>"그렇게 되면 나만의 인생관이 정립되고, 그것이 나를 위한 길이 되고, 나아가 진정한 사람이 되는 길을 만들어 나갈 수도 있을거라 생각한다."</b>
+</div>
+
+
 
 ## 07. 팀원 소개
 
