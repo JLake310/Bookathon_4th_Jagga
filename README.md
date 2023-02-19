@@ -137,6 +137,7 @@ TF-IDF와 Pororo Similarity를 활용한 자체 제작 샘플링 툴입니다.
 #### 📌 샘플링 전체 구조
 <img width="800" align="center" alt="image" src="https://user-images.githubusercontent.com/80453200/215407301-98b9f8ae-d2e7-4113-aa70-c11bb263f9d6.png">
 
+
 다음은 저희 모델이 생성한 가장 ```담대한``` 문장입니다.
 
 <div align="center">
@@ -153,7 +154,3 @@ TF-IDF와 Pororo Similarity를 활용한 자체 제작 샘플링 툴입니다.
 |                      김재연                       |                엄계현                |                이예진               |
 | :---------------------------------------------: | :----------------------------------: | :------------------------------: |
 |<img src="https://avatars.githubusercontent.com/u/86578246?v=4" alt="JLake310" width="100" height="100">|<img src="https://avatars.githubusercontent.com/u/80453200?v=4" alt="KaeHyun" width="100" height="100">|<img src="https://avatars.githubusercontent.com/u/82494506?v=4" alt="leeyejin1231" width="100" height="100">| [JLake310](https://github.com/JLake310) | [KaeHyun](http://github.com/KaeHyun) | [leeyejin1231](http://github.com/leeyejin1231) |
-
-
-## _작성중 !!!_
-
